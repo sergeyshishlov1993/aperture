@@ -1,0 +1,21 @@
+body {
+   margin: 0;
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+}
+.container {
+   max-width: 950px;
+   margin: 0 auto;
+}
+@import"./block/header";
+@import"./block/button";
+@import"./block/promo";
+@import"./block/second";
+@import"./block/black";
+@import"./block/mountains";
+@import"./block/macbook";
+@import"./block/five";
+@import"./block/logo";
+@import"./block/night_mount";
+@import"./block/videography";
+@import"./block/footer";

@@ -1,0 +1,18 @@
+.night_mount {
+   padding: 250px 106px 250px 900px;
+   background:url("../../img/sevenBg/seven\ scrin.jpg") center (center / cover)no-repeat;
+   &__title {
+      font-weight: 400;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+   }
+   &__descr {
+      width: 75%;
+      line-height: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      color: #C0C0C0;
+   }
+}

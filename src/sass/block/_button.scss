@@ -1,0 +1,13 @@
+._button {
+   height: 42px;
+   width: 155px;
+   background: #FFFFFF;
+   border-radius: 14px;
+   cursor: pointer;
+   &:hover {
+      font-weight: 900;
+      color: #FFFFFF;
+      box-shadow: 3px 3px 20px rgb(243, 240, 240);
+      background-color: rgb(14, 0, 0);
+   }
+}

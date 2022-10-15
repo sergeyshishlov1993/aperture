@@ -1,0 +1,38 @@
+.macbook {
+   background: #000000;
+   &__wrapper{
+      width: 100%;
+      display: flex;
+      align-items:center;
+   }
+   &__left-block {
+      width: 43%;
+      margin-right: 50px;
+      
+   }
+   &__right-block {
+      width: 60%;
+      display: block;
+      img {
+         width: 100%;
+      }
+   }
+   &__subtitle {
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #C0C0C0;
+   }
+   &__title {
+      font-weight: 400;
+      font-size: 28px;
+      color: #FFFFFF;
+   }
+   &__descr {
+      width: 91%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #FFFFFF;
+   }
+}

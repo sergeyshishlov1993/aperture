@@ -1,0 +1,74 @@
+.footer {
+   padding: 100px 0 104px 0;
+   background: #000000;
+   &__wrapper-aperture {
+      display: flex;
+      justify-content: space-between;
+      align-items:flex-start;
+   }
+   &__text {
+      font-weight: 400;
+      font-size: 13px;
+      color: #C0C0C0;
+   }
+   &__business {
+      display: block;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      li {
+         margin-top: 10px;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 20px;
+         color: #FFFFFF;
+      }
+   }
+   &__title{
+      font-weight: 400;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #C0C0C0;
+   }
+   &__pages {
+      display: block;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      li {
+         margin-top: 10px;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 20px;
+         color: #FFFFFF;
+      } 
+   }
+   &__line {
+      margin-top: 36px;
+      margin-bottom: 36px;
+      height: 2px;
+      background: #FFFFFF;
+   }
+   &__center {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__final {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+   }
+   &__fin-text {
+      display: block;
+      font-weight: 400;
+      font-size: 14px;
+      color: #C0C0C0;
+   }
+   &__wrapper-ico {
+      img {
+         margin-right: 10px;
+      }
+   }
+}

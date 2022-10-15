@@ -1,0 +1,25 @@
+.logo {
+   padding: 113px 0 169px 0;
+   background: #000000;
+   &__title {
+      font-weight: 400;
+      font-size: 40px;
+      text-align: center;
+      color: #FFFFFF;
+   }
+   &__subtitle {
+      font-weight: 400;
+      font-size: 24px;
+      text-align: center;
+      color: #C0C0C0;
+   }
+   &__wrapper {
+      margin-top: 111px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+         width: 128px;
+      }
+   }
+}

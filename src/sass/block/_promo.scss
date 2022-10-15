@@ -1,0 +1,33 @@
+.promo {
+   padding: 466px 0 71px 0;
+   background:url("../../img/firstbg/firstbg.jpg") center (center / cover) no-repeat;
+   &__wrapper {
+      margin: 0 auto;
+   }
+   &__subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #C0C0C0;
+   }
+   &__title{
+      font-weight: 400;
+      font-size: 54px;
+      line-height: 59px;
+      text-align: center;
+      color: #FFFFFF;
+   }
+   &__descr {
+      margin: 0 auto;
+      width: 60%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #C0C0C0;
+   }
+   
+}
